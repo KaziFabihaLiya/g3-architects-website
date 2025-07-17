@@ -25,6 +25,8 @@
 .display-flex{
     display: flex;
 }
+
+/* header style*/
 .brand{
     font-weight: 700;
     font-size: 3rem;
@@ -46,6 +48,7 @@
     list-style: none;
     margin-right: 30px;
 }
+/* banner style */
 .banner-content{
     max-width: 850px;
     margin: 0 auto;
@@ -68,6 +71,29 @@
     width: 100%;
 }
 
+main{
+    max-width:1440px;
+    margin: 0 auto;
+}
+.feature-section{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+}
+.our-feature{
+    margin-left: 130px;
+    max-width: 530px;
+}
+#quick-list{
+    font-weight: 500;
+}
+.feature-title{
+    font-size: 2.8rem;
+    color: #FF900E;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-link{
